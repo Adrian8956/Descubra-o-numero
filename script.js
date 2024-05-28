@@ -42,3 +42,7 @@ frm.addEventListener("submit", (e) =>{
     frm.inNumero.value = "";
     frm.inNumero.focus();
 })
+
+frm.btNovo.addEventListener("click", () =>{
+    location.reload()
+})
